@@ -3,7 +3,7 @@ This code is designed to perform a semantic search on a set of questions and fin
 
 # Loading the Data
 
-The code reads the input data from an Excel file named "Questions.xlsx" in the same directory. The sheet named "Base" contains a list of questions and their correspondings. The semantic_search() function reads this file and processes the questions by encoding them using the Sentence Transformers model.
+The code reads the input data from an Excel file named "Questions.xlsx" in the same directory. The sheet named "Base" contains a list of questions and their corresponding company name. The semantic_search() function reads this file and processes the questions by encoding them using the Sentence Transformers model.
 
 # Finding the Most Similar Questions
 
@@ -15,7 +15,7 @@ In the given code, 'all-mpnet-base-v2' is the name of the pre-trained transforme
 
 # Output
 
-After running the code, the user is prompted to enter a question. The code then prints the top three most similar questions and their corresponding carriers. The output is also saved to a CSV file named "output.csv".
+After running the code, the user is prompted to enter a question. The code then prints the top three most similar questions and their corresponding companies. The output is also saved to a CSV file named "output.csv".
 
 # Cunclusion
 
